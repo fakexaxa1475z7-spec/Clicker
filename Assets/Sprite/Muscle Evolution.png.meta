@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 4536dbb506b36074882392875e664c78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6470708985713242152
+    second: Muscle Evolution_0
+  - first:
+      213: -2380021081667565356
+    second: Muscle Evolution_1
+  - first:
+      213: -5272064344203709211
+    second: Muscle Evolution_2
+  - first:
+      213: 1681619719456254525
+    second: Muscle Evolution_3
+  - first:
+      213: 6687913749720425916
+    second: Muscle Evolution_4
+  - first:
+      213: 7159212130818564694
+    second: Muscle Evolution_5
+  - first:
+      213: -5546232297136571408
+    second: Muscle Evolution_6
+  - first:
+      213: -350387341610805552
+    second: Muscle Evolution_7
+  - first:
+      213: -5494272297965369620
+    second: Muscle Evolution_8
+  - first:
+      213: 6119782543324557169
+    second: Muscle Evolution_9
+  - first:
+      213: 6453163591870491694
+    second: Muscle Evolution_10
+  - first:
+      213: 498038708882175299
+    second: Muscle Evolution_11
+  - first:
+      213: -4648342238615164561
+    second: Muscle Evolution_12
+  - first:
+      213: -6145434880313429730
+    second: Muscle Evolution_13
+  - first:
+      213: -3919918210832033566
+    second: Muscle Evolution_14
+  - first:
+      213: -8180844746365354604
+    second: Muscle Evolution_15
+  - first:
+      213: -1408663585664737086
+    second: Muscle Evolution_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Muscle Evolution_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 2048
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df42a5f57c6336a0800000000000000
+      internalID: -6470708985713242152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Muscle Evolution_0: -6470708985713242152
+      Muscle Evolution_1: -2380021081667565356
+      Muscle Evolution_10: 6453163591870491694
+      Muscle Evolution_11: 498038708882175299
+      Muscle Evolution_12: -4648342238615164561
+      Muscle Evolution_13: -6145434880313429730
+      Muscle Evolution_14: -3919918210832033566
+      Muscle Evolution_15: -8180844746365354604
+      Muscle Evolution_16: -1408663585664737086
+      Muscle Evolution_2: -5272064344203709211
+      Muscle Evolution_3: 1681619719456254525
+      Muscle Evolution_4: 6687913749720425916
+      Muscle Evolution_5: 7159212130818564694
+      Muscle Evolution_6: -5546232297136571408
+      Muscle Evolution_7: -350387341610805552
+      Muscle Evolution_8: -5494272297965369620
+      Muscle Evolution_9: 6119782543324557169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

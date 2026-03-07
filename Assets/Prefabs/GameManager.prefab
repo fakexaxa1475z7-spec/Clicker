@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6817964989506314878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1035023394843049933}
+  - component: {fileID: 2007506166558529583}
+  - component: {fileID: 123998370914269425}
+  - component: {fileID: 8679753091726685106}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1035023394843049933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817964989506314878}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -436.96722, y: 173.30237, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007506166558529583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817964989506314878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19839ffe6dbaee1429e3cc26239c389e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  powerText: {fileID: 0}
+  incomeText: {fileID: 0}
+  multiplierText: {fileID: 0}
+  BaseText: {fileID: 0}
+  storeUpgrades:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  clickUpgrades:
+  - {fileID: 0}
+  baseUpgrades:
+  - {fileID: 0}
+  updatePerSecond: 5
+  floatingTextPrefab: {fileID: 3901185852603206770, guid: d2f2bda969b3a714a9c9bca4ad70e1e5, type: 3}
+  mainCanvas: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  fadeImage: {fileID: 0}
+  backgroundTiers:
+  - {fileID: 21300000, guid: 2b605cc1d7a433042a0e60cddfd39ab8, type: 3}
+  levelPerTier: 5
+  fadeDuration: 0.5
+  power: 0
+  rebirths: 0
+  rebirthUpgrade: {fileID: 0}
+  offlinePopup: {fileID: 123998370914269425}
+  quitPopup: {fileID: 8679753091726685106}
+--- !u!114 &123998370914269425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817964989506314878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d854e311253b3f4bb2704c59a9413a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OfflineIncomePopup
+  incomeText: {fileID: 0}
+  root: {fileID: 0}
+--- !u!114 &8679753091726685106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817964989506314878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ba93aa6ff215c458b1903f20466ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuitPopupUI
+  root: {fileID: 0}
+  gameManager: {fileID: 2007506166558529583}
